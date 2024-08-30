@@ -1,0 +1,29 @@
+/******************************* Button *******************************/
+.menuButton_container{
+    width: 290px;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+    border-radius: 25px;
+    transition: ease-in-out 200ms;
+    cursor: pointer;
+}
+
+.menuButton_container:hover{
+    background: #C4DEF2;
+    gap: 25px;
+}
+
+.button_title{
+    color: #41484D;
+    font-weight: 400;
+}
+
+.button_img{
+    height: 20px;
+    max-width: 20px;
+}
+
