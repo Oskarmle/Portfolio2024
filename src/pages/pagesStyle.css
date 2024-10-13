@@ -1,0 +1,73 @@
+/******************************* Navigation *******************************/
+.start {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .nav_container {
+    height: 100vh; /* Full height of the viewport */
+    width: 21vw;
+    background: #e5eaf2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    position: sticky;
+    top: 0;
+    flex-shrink: 0; /* Prevents it from shrinking */
+  }
+  
+  .menu_title {
+    width: 290px;
+    font-weight: 400;
+    font-size: 30px;
+    color: #41484d;
+  }
+  
+  .triangle_nav {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 18vw;
+  }
+  
+  /******************************* Pages *******************************/
+  main {
+    width: 79vw;
+    height: 100vh;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  /* Hide scrollbar */
+  main::-webkit-scrollbar {
+    display: none; /* Chrome, Opera, Safari */
+  }
+  
+  .projects {
+    width: 100%;
+    height: 100vh;
+    background: blue;
+  }
+  
+  .startpage {
+    width: 100%;
+    height: 100vh;
+    background: purple;
+  }
+  
+  .contact{
+    width: 100%;
+    height: 100vh;
+    background: red;
+  }
+
+  .skills{
+    width: 100%;
+    height: 100vh;
+    background: green;
+  }
+
+/******************************* Startpage *******************************/
+

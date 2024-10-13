@@ -1,8 +1,4 @@
 .App{
     display: flex;
-}
-
-main{
-    width: 75vw;
-    /* background: red; */
+    overflow: hidden;
 }

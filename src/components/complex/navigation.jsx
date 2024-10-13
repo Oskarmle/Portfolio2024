@@ -7,6 +7,7 @@ import { useNavigate } from "react-router-dom";
 import home_button from '../../svg_icons/home_button.svg'
 import projects_button from '../../svg_icons/projects_button.svg'
 import contact_button from '../../svg_icons/contact_button.svg'
+import triangle_nav from '../../svg_icons/triangle_nav.svg'
 
 export default function Navigation() {
 
@@ -17,16 +18,17 @@ export default function Navigation() {
   }
 
   function handleProjectsClick(){
-    navigate("/projects")
+    // navigate("/projects")
   }
 
   function handleContactClick(){
-    navigate("/contact")
+    // navigate("/contact")
   }
 
 
   return (
     <div className='nav_container'>
+      <img src={triangle_nav} alt="" className='triangle_nav'/>
         <p className='menu_title'>Menu</p>
         <MenuButton name="Frontpage" imageSrc={home_button} type="button" onClick={handleFrontpageClick}></MenuButton>
         <MenuButton name="Projects" imageSrc={projects_button} type="button" onClick={handleProjectsClick}></MenuButton>
