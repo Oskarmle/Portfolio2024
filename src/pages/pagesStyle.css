@@ -1,3 +1,10 @@
+/******************************* Colors *******************************/
+:root{
+  --darkBlue: #1F6586;
+  --navBackground: #e5eaf2;
+  --navText: #41484d;
+}
+
 /******************************* Navigation *******************************/
 .start {
     display: flex;
@@ -7,7 +14,7 @@
   .nav_container {
     height: 100vh; /* Full height of the viewport */
     width: 21vw;
-    background: #e5eaf2;
+    background: var(--navBackground);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,7 +28,7 @@
     width: 290px;
     font-weight: 400;
     font-size: 30px;
-    color: #41484d;
+    color: var(--navText);
   }
   
   .triangle_nav {
@@ -70,4 +77,33 @@
   }
 
 /******************************* Startpage *******************************/
+.container{
 
+}
+
+.imgHeadshot{
+  width: 400px;
+}
+
+.imgHeadshot img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+.personalInfo{
+  width: 450px;
+  background: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials{
+  display: flex;
+  gap: 20px;
+}
+
+.socials img{
+  width: 50px;
+}
