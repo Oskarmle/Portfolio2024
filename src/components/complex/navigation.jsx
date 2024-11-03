@@ -1,6 +1,5 @@
 import React from 'react'
-import MenuButton from '../basic/menuButton';
-import "./complexComponents.css";
+import MenuButton from '../basic/menuButton/menuButton';
 import { useNavigate } from "react-router-dom";
 
 // button props
@@ -24,7 +23,6 @@ export default function Navigation() {
   function handleContactClick(){
     // navigate("/contact")
   }
-
 
   return (
     <div className='nav_container'>
