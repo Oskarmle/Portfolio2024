@@ -1,0 +1,25 @@
+.nav_container {
+  height: 100vh;
+  width: 21vw;
+  background: var(--navBackground);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  position: sticky;
+  top: 0;
+}
+
+.menu_title {
+  width: 290px;
+  font-weight: 400;
+  font-size: 34px;
+  color: var(--navText);
+}
+
+.triangle_nav {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 18vw;
+}

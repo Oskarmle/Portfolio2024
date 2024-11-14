@@ -1,0 +1,18 @@
+.skillBox {
+  /* background: red; */
+  width: 140px;
+  display: flex;
+  flex-direction: column;
+}
+
+.skillImg {
+  width: 100%;
+}
+
+.skillText {
+  text-align: center;
+  font-size: 24px;
+  margin: 10px 0;
+  color: var(--navText);
+  font-weight: 600;
+}

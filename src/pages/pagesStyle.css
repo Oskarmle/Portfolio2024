@@ -5,36 +5,9 @@
   --navText: #41484d;
 }
 
-/******************************* Navigation *******************************/
 .start {
   display: flex;
   height: 100vh;
-}
-
-.nav_container {
-  height: 100vh; /* Full height of the viewport */
-  width: 21vw;
-  background: var(--navBackground);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 40px;
-  position: sticky;
-  top: 0;
-}
-
-.menu_title {
-  width: 290px;
-  font-weight: 400;
-  font-size: 34px;
-  color: var(--navText);
-}
-
-.triangle_nav {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 18vw;
 }
 
 /******************************* Pages *******************************/
@@ -57,69 +30,8 @@ main::-webkit-scrollbar {
   background: blue;
 }
 
-.startpage {
-  width: 100%;
-  height: 100vh;
-  /* background: purple; */
-}
-
 .contact {
   width: 100%;
   height: 100vh;
   background: red;
-}
-
-.skills {
-  width: 100%;
-  height: 100vh;
-  background: green;
-}
-
-/******************************* Startpage *******************************/
-.imgHeadshot {
-  width: 350px;
-  margin-top: 20px;
-}
-
-.imgHeadshot img {
-  width: 100%;
-  border-radius: 50%;
-}
-
-.personalInfo {
-  width: 450px;
-  /* background: red; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.socials {
-  display: flex;
-  gap: 20px;
-  color: var(--darkBlue);
-  font-size: 24px;
-}
-
-.socials img {
-  width: 50px;
-}
-
-.containerStart {
-  display: flex;
-}
-
-.intro {
-  display: flex;
-  justify-content: center;
-  margin-top: 40px;
-  color: var(--darkBlue);
-}
-
-h1 {
-  font-size: 90px;
-  font-weight: 400;
 }

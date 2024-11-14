@@ -1,0 +1,16 @@
+.socials {
+  display: flex;
+  gap: 20px;
+  color: var(--darkBlue);
+  font-size: 24px;
+}
+
+.image {
+  width: 50px;
+}
+
+.socials:hover {
+  color: var(--navText);
+  transition: ease-in-out 200ms;
+  cursor: pointer;
+}
