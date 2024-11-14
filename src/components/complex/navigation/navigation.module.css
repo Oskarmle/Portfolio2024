@@ -6,12 +6,10 @@
   flex-direction: column;
   align-items: center;
   gap: 40px;
-  position: sticky;
-  top: 0;
 }
 
 .menu_title {
-  width: 290px;
+  width: 14vw;
   font-weight: 400;
   font-size: 34px;
   color: var(--navText);

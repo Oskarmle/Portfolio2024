@@ -12,7 +12,7 @@
 }
 
 .personalInfo {
-  width: 450px;
+  max-width: 20vw;
   /* background: red; */
   display: flex;
   flex-direction: column;
@@ -20,8 +20,8 @@
 }
 
 .imgHeadshot {
-  width: 450px;
-  /* margin-top: 50px; */
+  max-width: 20vw;
+  margin-top: 35px;
 }
 
 .imgHeadshot img {
@@ -31,6 +31,8 @@
 
 .intro {
   display: flex;
+  width: 45vw;
+  /* background: blue; */
   justify-content: center;
   flex-direction: column;
   margin-left: 20px;
@@ -40,16 +42,15 @@
 h1 {
   font-size: 80px;
   font-weight: 400;
+  margin: 0;
 }
 
 .introText {
   font-size: 24px;
-  width: 600px;
   margin: 15px 0;
 }
 
 .introTextLink {
-  width: 600px;
   font-size: 24px;
   margin-top: 50px;
 }

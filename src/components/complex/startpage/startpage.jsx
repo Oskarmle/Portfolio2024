@@ -28,9 +28,9 @@ export default function Startpage() {
           </div>
         </div>
         <div className={styles.intro}>
-          <h1>I'm a<br/>web developer student</h1>
+          <h1>I'm a web&shy;developer student</h1>
           <div>
-            <p className={styles.introText}>Hi there, my name is Oskar Eriksen. I'm a multimediadesigner and a web developer student.</p>
+            <p className={styles.introText}>Hi there, my name is Oskar Eriksen. I'm a multimediadesigner and a web&shy;developer student.</p>
             <p className={styles.introText}>I enjoy learning and exploring code and design, and trying to learn as much as possible.</p>
             <p className={styles.introText}>For more casual stuff, I'm a big fan of trying different kinds of photography</p>
             <p className={styles.introText}>In my freetime i enjoy playing table tennis in Gladsaxe Bordtennisklub</p>
