@@ -6,11 +6,11 @@ import html from "../../../logos/html.png";
 import css from "../../../logos/css.png";
 import js from "../../../logos/javascript.png";
 import ts from "../../../logos/typescript.png";
-import docker from "../../../logos/docker.png";
+// import docker from "../../../logos/docker.png";
 import git from "../../../logos/git.png";
 import github from "../../../logos/github.png";
 import mongo from "../../../logos/mongodb.png";
-import nest from "../../../logos/nestjs.png";
+// import nest from "../../../logos/nestjs.png";
 import node from "../../../logos/nodejs.png";
 import react from "../../../logos/reactjs.png";
 
@@ -32,8 +32,8 @@ export default function Skills() {
           <SkillBox skillBoxText="Git" skillImg={git}></SkillBox>
           <SkillBox skillBoxText="Github" skillImg={github}></SkillBox>
           <SkillBox skillBoxText="MongoDB" skillImg={mongo}></SkillBox>
-          <SkillBox skillBoxText="Docker" skillImg={docker}></SkillBox>
-          <SkillBox skillBoxText="NestJS" skillImg={nest}></SkillBox>
+          {/* <SkillBox skillBoxText="Docker" skillImg={docker}></SkillBox> */}
+          {/* <SkillBox skillBoxText="NestJS" skillImg={nest}></SkillBox> */}
           <SkillBox skillBoxText="NodeJS" skillImg={node}></SkillBox>
           <SkillBox skillBoxText="ReactJS" skillImg={react}></SkillBox>
         </div>
